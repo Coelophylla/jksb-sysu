@@ -42,17 +42,17 @@
 
 控制Github Action自动运行的文件是/.github/workflows/jksb.yml，如需修改定时运行时间，则修改该文件的`- cron:  '32 23 * * *'`一行，修改方法可参考[该文档](https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows#scheduled-events)。
 
-### 4. 修改Github Actions的通知方式
+### 4. 修改Github Actions的通知方式（可选）
 
-Github默认当Action执行成功时不通知，执行失败时邮件通知。
+Github的默认通知方式为：当Actions执行成功时不通知，执行失败时邮件通知。
 
-修改方式如下：
+如需每次运行时均进行通知，可按照以下步骤修改设置：
 
 4.1 点击右上角自己的头像，选择Settings
 
 4.2 在左侧竖栏中选择Notifications，下拉找到Actions一栏
 
-4.3 取消勾选Send notifications for workflows only
+4.3 取消勾选Send notifications for failed workflows only 
 
 ### 5. 手动测试（可选）
 
