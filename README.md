@@ -13,7 +13,7 @@
 
 ## 技术方案
 
-- python+selenium+firefox
+- python+selenium+firefox+ddddocr
 - 通过Github Action定期执行自动申报代码
 
 ## 项目配置
