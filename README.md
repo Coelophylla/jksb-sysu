@@ -1,4 +1,4 @@
-# jksb_sysu
+# jksb-sysu
 
 本项目实现了针对中山大学学生健康状况申报要求的每日定时申报，并可通过email自动发送申报结果。本项目通过Github Actions定期执行，无需开启电脑或租用服务器。
 
@@ -47,8 +47,11 @@
 Github默认当Action执行成功时不通知，执行失败时邮件通知。
 
 修改方式如下：
+
 4.1 点击右上角自己的头像，选择Settings
+
 4.2 在左侧竖栏中选择Notifications，下拉找到Actions一栏
+
 4.3 取消勾选Send notifications for workflows only
 
 ### 5. 手动测试（可选）
