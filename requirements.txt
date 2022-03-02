@@ -1,0 +1,4 @@
+﻿requests==2.20.0
+retrying==1.3.3
+selenium==3.14.1
+ddddocr==1.2.0

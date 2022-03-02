@@ -1,0 +1,6 @@
+*.log
+*.jpg
+__pycache__/
+__pycache__
+*/__pycache__
+secrets.txt
