@@ -28,9 +28,9 @@
 
 ### 2. 填写账号密码
 
-2.1 在fork出来的仓库中点击最右侧的Settings，然后在左侧竖栏中选择Secrets。
+2.1 在fork出来的仓库中点击最右侧的Settings，然后在左侧竖栏中选择Secrets-Actions。
 
-2.2 点击右上角的New repository secret按钮，在Name一栏填入`ID`(*注意需要大写*),在Value一栏填入你的用户号，点击Add secret保存。
+2.2 点击右上角的New repository secret按钮，在Name一栏填入`NETID`(*注意需要大写*),在Value一栏填入你的NetID，点击Add secret保存。
 
 2.3 再次点击右上角的New repository secret按钮，在Name一栏填入`PASSWORD`(*注意需要大写*),在Value一栏填入你的密码，点击Add secret保存。
 
