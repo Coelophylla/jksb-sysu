@@ -88,6 +88,8 @@ def jksb(driver):
     driver.find_element_by_xpath('//*[@id="form_command_bar"]/li[1]').click()
 
     wait.until(expected_conditions.element_to_be_clickable((By.XPATH, "//*[@id='form_command_bar']/li[2]")) ) # 出现终止按钮
+    logging.info("出现终止按钮，等待一段时间")
+    Thread.sleep(3000);
     logging.info("提交健康申报")
     driver.find_element_by_xpath('//*[@id="form_command_bar"]/li[1]').click()
 
