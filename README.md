@@ -69,3 +69,7 @@ Github的默认通知方式为：当Actions执行成功时不通知，执行失�
 ## 致谢
 
 本项目的框架和流程参考[@Editi0](https://github.com/Editi0)的[jksb_sysu](https://github.com/Editi0/jksb_sysu)项目，该项目最早由 [@tomatoF](https://github.com/tomatoF) 开发。
+
+## 项目维护
+
+欢迎各位提交自己的修改。由于已离开中大，@Coelophylla难以继续对项目进行维护。希望有同学愿意参与/接手这个项目。有意者可创建issue自荐。
